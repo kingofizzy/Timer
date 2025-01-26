@@ -1,7 +1,7 @@
 import os
 import time
-from telegram import Update
-from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
+from Timer import Update
+from Timer.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # Command to start the bot
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
